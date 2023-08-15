@@ -1,0 +1,99 @@
+package com;
+
+import java.util.Date;
+
+public class Cuentabancaria{
+	String numCuenta;
+	double saldo;
+	String titular;
+	Date fechadeApertura;
+	double min;
+	double max;
+	String tipodecuenta;
+	
+	public Cuentabancaria() {
+		
+	}
+
+	public Cuentabancaria(String numCuenta, double saldo, String titular, Date fechadeApertura, double min, double max,
+			String tipodecuenta) {
+		super();
+		this.numCuenta = numCuenta;
+		this.saldo = saldo;
+		this.titular = titular;
+		this.fechadeApertura = fechadeApertura;
+		this.min = min;
+		this.max = max;
+		this.tipodecuenta = tipodecuenta;}
+
+	public String getNumCuenta() {
+		return numCuenta;
+	}
+
+	public void setNumCuenta(String numCuenta) {
+		this.numCuenta = numCuenta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		this.titular = titular;
+	}
+
+	public Date getFechadeApertura() {
+		return fechadeApertura;
+	}
+
+	public void setFechadeApertura(Date fechadeApertura) {
+		this.fechadeApertura = fechadeApertura;
+	}
+
+	public double getMin() {
+		return min;
+	}
+
+	public void setMin(double min) {
+		this.min = min;
+	}
+
+	public double getMax() {
+		return max;
+	}
+
+	public void setMax(double max) {
+		this.max = max;
+	}
+
+	public String getTipodecuenta() {
+		return tipodecuenta;
+	}
+
+	public void setTipodecuenta(String tipodecuenta) {
+		this.tipodecuenta = tipodecuenta;
+	}
+
+	@Override
+	public String toString() {
+		return "Cuentabancaria [numCuenta=" + numCuenta + ", saldo=" + saldo + ", titular=" + titular
+				+ ", fechadeApertura=" + fechadeApertura + ", min=" + min + ", max=" + max + ", tipodecuenta="
+				+ tipodecuenta + "]";
+	}
+	
+	//COMPORTAMIENTO
+	//RETIRAR, DEPOSITAR, TRANSFERIR, CUENTA
+	
+	public void retirar(Cuentabancaria cuenta,double monto) {
+		
+	}
+}
+
