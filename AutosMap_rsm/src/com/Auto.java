@@ -7,6 +7,8 @@ public class Auto {
 	double precio;
 	String placas;
 	
+	//Este es mi cambio
+	
 	public Auto(String modelo, int año, double precio, String placas) {
 		super();
 		this.modelo = modelo;
